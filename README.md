@@ -13,7 +13,7 @@
 
 ```properties
 resource-pack=https://github.com/diegokaos/ventura-resourcepack/releases/latest/download/VenturaFishing-ResourcePack-1.21.x.zip
-resource-pack-sha1=400b80de9185f3bd3757d8adffe5f8deb6a3a85d
+resource-pack-sha1=9de22a5248fb20caed43e8c68325f6f0346bdb56
 require-resource-pack=true
 ```
 
