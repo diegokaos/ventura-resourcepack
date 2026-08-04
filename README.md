@@ -31,12 +31,10 @@ Minecraft сам выбирает нужный слой по версии кли
 
 ## Содержимое
 
-- `pack/` — распакованный многоверсионный resource pack.
-- `sources/` — полноразмерные сгенерированные исходники и версии с удалённым фоном.
-- `templates/` — многослойный PSD, PNG-шаблон и инструкция по рисованию.
-- `tools/prepare_textures.py` — вписывает прозрачные исходники в холст 64×64 и обновляет preview/pack icon.
-- `texture-preview.png` — превью всех готовых текстур.
-- `build-resource-pack.ps1` — проверяет JSON, собирает ZIP, считает SHA-1 и обновляет пример `server.properties`.
+- `VenturaFishing-ResourcePack-1.21.x.zip` — готовый pack из последнего Release.
+- `SHA1.txt` и `server.properties.example` — актуальные данные для подключения к серверу.
+- `texture-preview.png` и `pack.png` — превью и иконка pack.
+- `templates/` — многослойный PSD, PNG-сетка 64×64 и русская инструкция по рисованию.
 
 Актуальная контрольная сумма готового ZIP находится в `SHA1.txt`.
 
@@ -67,7 +65,7 @@ Pack содержит шесть моделей улова, две модели 
 
 ## Сборка
 
-Запустите из корня проекта:
+В полном исходном проекте VenturaFishing запустите из его корня:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\resource-pack\build-resource-pack.ps1
