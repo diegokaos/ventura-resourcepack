@@ -13,7 +13,7 @@
 
 ```properties
 resource-pack=https://github.com/diegokaos/ventura-resourcepack/releases/latest/download/VenturaFishing-ResourcePack-1.21.x.zip
-resource-pack-sha1=27689fe77fe7ecec856aeff183bd998eda10f63d
+resource-pack-sha1=c309dcd11fa1988996dfcaa443f9dcac335a7afc
 require-resource-pack=true
 ```
 
@@ -40,7 +40,7 @@ Minecraft сам выбирает нужный слой по версии кли
 
 ## Готовые модели
 
-Pack содержит шесть моделей улова, две модели удочек и три модели сокровищ:
+Pack содержит 17 моделей улова (15 рыб и 2 предмета мусора), две модели удочек и три модели сокровищ:
 
 | ID | Тип | model-data | Базовый материал |
 | --- | --- | ---: | --- |
@@ -49,6 +49,17 @@ Pack содержит шесть моделей улова, две модели 
 | `salmon_king` | улов | 1103 | `SALMON` |
 | `golden_carp` | улов | 1104 | `TROPICAL_FISH` |
 | `shark` | улов | 1105 | `PUFFERFISH` |
+| `common_fish` | улов | 1106 | `COD` |
+| `tiny_fish` | улов | 1107 | `TROPICAL_FISH` |
+| `small_trout` | улов | 1108 | `SALMON` |
+| `forest_perch` | улов | 1109 | `COD` |
+| `river_carp` | улов | 1110 | `COD` |
+| `mud_carp` | улов | 1111 | `COD` |
+| `pike_fry` | улов | 1112 | `COD` |
+| `deep_eel` | улов | 1113 | `COD` |
+| `electric_eel` | улов | 1114 | `COD` |
+| `poison_loach` | улов | 1115 | `PUFFERFISH` |
+| `old_can` | мусор | 1198 | `IRON_NUGGET` |
 | `old_boot` | мусор | 1199 | `RABBIT_HIDE` |
 | `summer_tide` | сезонная удочка | 2101 | `FISHING_ROD` |
 | `abyssal` | лимитированная удочка | 2102 | `FISHING_ROD` |
