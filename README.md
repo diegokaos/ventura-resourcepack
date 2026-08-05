@@ -13,7 +13,7 @@
 
 ```properties
 resource-pack=https://github.com/diegokaos/ventura-resourcepack/releases/latest/download/VenturaFishing-ResourcePack-1.21.x.zip
-resource-pack-sha1=ffe08fa281f7f999dc9c3afe30778eb3091ab9c5
+resource-pack-sha1=208b2c2aee59fbd9a648f945d41f5d2ccf501763
 require-resource-pack=true
 ```
 
@@ -40,7 +40,7 @@ Minecraft сам выбирает нужный слой по версии кли
 
 ## Готовые модели
 
-Pack содержит 22 модели улова (15 рыб и 7 предметов мусора), две модели удочек и три модели сокровищ:
+Pack содержит 26 моделей улова (19 рыб и 7 предметов мусора), две модели удочек и три модели сокровищ:
 
 | ID | Тип | model-data | Базовый материал |
 | --- | --- | ---: | --- |
@@ -59,6 +59,10 @@ Pack содержит 22 модели улова (15 рыб и 7 предмет�
 | `deep_eel` | улов | 1113 | `COD` |
 | `electric_eel` | улов | 1114 | `COD` |
 | `poison_loach` | улов | 1115 | `PUFFERFISH` |
+| `ruby_salmon` | легендарный улов | 1116 | `SALMON` |
+| `ancient_fish` | легендарный улов | 1117 | `COD` |
+| `golden_koi` | легендарный улов | 1118 | `TROPICAL_FISH` |
+| `ancient_swamp_snake` | легендарный улов | 1119 | `PHANTOM_SPAWN_EGG` |
 | `swamp_bone` | мусор | 1193 | `BONE` |
 | `rusty_key` | мусор | 1194 | `TRIPWIRE_HOOK` |
 | `wet_book` | мусор | 1195 | `BOOK` |
