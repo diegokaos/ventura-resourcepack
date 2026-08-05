@@ -1,6 +1,6 @@
 # VenturaFishing Resource Pack
 
-Готовый resource pack для VenturaFishing: уникальные рыбы, мусор, две особые удочки
+Готовый resource pack для VenturaFishing: уникальные рыбы, мусор, четыре особые удочки
 и три Treasure Chest без ItemsAdder или Oraxen.
 
 ![Превью текстур](texture-preview.png)
@@ -13,7 +13,7 @@
 
 ```properties
 resource-pack=https://github.com/diegokaos/ventura-resourcepack/releases/latest/download/VenturaFishing-ResourcePack-1.21.x.zip
-resource-pack-sha1=b1ee589366651b1f26ad14157c347ef896f5dcd7
+resource-pack-sha1=ef1480dec0be946860e087df376119486fbbe9c8
 require-resource-pack=true
 ```
 
@@ -40,7 +40,7 @@ Minecraft сам выбирает нужный слой по версии кли
 
 ## Готовые модели
 
-Pack содержит 35 моделей улова (28 рыб и 7 предметов мусора), две модели удочек и три модели сокровищ:
+Pack содержит 35 моделей улова (28 рыб и 7 предметов мусора), четыре модели удочек и три модели сокровищ:
 
 | ID | Тип | model-data | Базовый материал |
 | --- | --- | ---: | --- |
@@ -81,12 +81,15 @@ Pack содержит 35 моделей улова (28 рыб и 7 предме�
 | `old_boot` | мусор | 1199 | `RABBIT_HIDE` |
 | `summer_tide` | сезонная удочка | 2101 | `FISHING_ROD` |
 | `abyssal` | лимитированная удочка | 2102 | `FISHING_ROD` |
+| `ocean` | улучшенная удочка | 2103 | `FISHING_ROD` |
+| `aurora` | лимитированная удочка | 2104 | `FISHING_ROD` |
 | `driftwood_chest` | обычное сокровище | 3101 | `CHEST` |
 | `sunken_chest` | редкое сокровище | 3102 | `CHEST` |
 | `abyssal_chest` | сокровище Бездны | 3103 | `CHEST` |
 
 Модели удочек применяются только к предметам, которые выдал VenturaFishing с соответствующим
-`CustomModelData`. Ванильная удочка из творческого режима специально остаётся ванильной. Для работы
+`CustomModelData`. Удочки `starter`, `spinning` и `feeder`, а также ванильная удочка из творческого режима,
+специально остаются ванильными. Для работы
 нужны одновременно этот pack и актуальный JAR плагина; после замены JAR полностью перезапустите сервер.
 
 Модели сундуков назначаются предметам Treasure системой плагина. Их шансы, цена продажи,
