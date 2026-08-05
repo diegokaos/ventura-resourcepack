@@ -13,7 +13,7 @@
 
 ```properties
 resource-pack=https://github.com/diegokaos/ventura-resourcepack/releases/latest/download/VenturaFishing-ResourcePack-1.21.x.zip
-resource-pack-sha1=208b2c2aee59fbd9a648f945d41f5d2ccf501763
+resource-pack-sha1=b1ee589366651b1f26ad14157c347ef896f5dcd7
 require-resource-pack=true
 ```
 
@@ -40,7 +40,7 @@ Minecraft сам выбирает нужный слой по версии кли
 
 ## Готовые модели
 
-Pack содержит 26 моделей улова (19 рыб и 7 предметов мусора), две модели удочек и три модели сокровищ:
+Pack содержит 35 моделей улова (28 рыб и 7 предметов мусора), две модели удочек и три модели сокровищ:
 
 | ID | Тип | model-data | Базовый материал |
 | --- | --- | ---: | --- |
@@ -63,6 +63,15 @@ Pack содержит 26 моделей улова (19 рыб и 7 предме�
 | `ancient_fish` | легендарный улов | 1117 | `COD` |
 | `golden_koi` | легендарный улов | 1118 | `TROPICAL_FISH` |
 | `ancient_swamp_snake` | легендарный улов | 1119 | `PHANTOM_SPAWN_EGG` |
+| `lake_roach` | обычный улов | 1120 | `COD` |
+| `silver_bream` | обычный улов | 1121 | `COD` |
+| `river_bream` | обычный улов | 1122 | `SALMON` |
+| `grass_carp` | обычный улов | 1123 | `SALMON` |
+| `red_perch` | обычный улов | 1124 | `SALMON` |
+| `yellow_perch` | обычный улов | 1125 | `COD` |
+| `river_shiner` | обычный улов | 1126 | `TROPICAL_FISH` |
+| `frog_fish` | обычный улов | 1127 | `TROPICAL_FISH` |
+| `mud_tooth` | обычный улов | 1128 | `COD` |
 | `swamp_bone` | мусор | 1193 | `BONE` |
 | `rusty_key` | мусор | 1194 | `TRIPWIRE_HOOK` |
 | `wet_book` | мусор | 1195 | `BOOK` |
