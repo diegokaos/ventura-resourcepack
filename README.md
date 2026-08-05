@@ -13,7 +13,7 @@
 
 ```properties
 resource-pack=https://github.com/diegokaos/ventura-resourcepack/releases/latest/download/VenturaFishing-ResourcePack-1.21.x.zip
-resource-pack-sha1=c309dcd11fa1988996dfcaa443f9dcac335a7afc
+resource-pack-sha1=ffe08fa281f7f999dc9c3afe30778eb3091ab9c5
 require-resource-pack=true
 ```
 
@@ -40,7 +40,7 @@ Minecraft сам выбирает нужный слой по версии кли
 
 ## Готовые модели
 
-Pack содержит 17 моделей улова (15 рыб и 2 предмета мусора), две модели удочек и три модели сокровищ:
+Pack содержит 22 модели улова (15 рыб и 7 предметов мусора), две модели удочек и три модели сокровищ:
 
 | ID | Тип | model-data | Базовый материал |
 | --- | --- | ---: | --- |
@@ -59,6 +59,11 @@ Pack содержит 17 моделей улова (15 рыб и 2 предме�
 | `deep_eel` | улов | 1113 | `COD` |
 | `electric_eel` | улов | 1114 | `COD` |
 | `poison_loach` | улов | 1115 | `PUFFERFISH` |
+| `swamp_bone` | мусор | 1193 | `BONE` |
+| `rusty_key` | мусор | 1194 | `TRIPWIRE_HOOK` |
+| `wet_book` | мусор | 1195 | `BOOK` |
+| `rotten_fish` | мусор | 1196 | `ROTTEN_FLESH` |
+| `broken_rod` | мусор | 1197 | `STICK` |
 | `old_can` | мусор | 1198 | `IRON_NUGGET` |
 | `old_boot` | мусор | 1199 | `RABBIT_HIDE` |
 | `summer_tide` | сезонная удочка | 2101 | `FISHING_ROD` |
